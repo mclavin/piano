@@ -3,6 +3,7 @@ body{
 }
 
 #instrument{
+    user-select: none;
     height: 116px;
     width: 952px;
     padding-top: 50px;

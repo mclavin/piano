@@ -16,7 +16,20 @@ var f = document.getElementById("f");
 var g = document.getElementById("g");
 var a = document.getElementById("a");
 var b = document.getElementById("b");
-
+/*
+$(document).keydown(function(qKey){
+    switch(qKey.keyCode){
+        case 81:{
+            cNote.currentTime = 0;
+            cNote.play();
+            c.style.backgroundColor = "#661920";
+            $( "#c" ).animate({
+                backgroundColor: "#3e181b",
+            }, 150 );
+        }
+    }
+});
+*/
 $(document).keydown(function(qKey) {
   if(qKey.keyCode == 81){
       cNote.currentTime = 0;
